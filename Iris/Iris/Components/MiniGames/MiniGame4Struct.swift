@@ -41,15 +41,3 @@ struct MiniGame4Struct: View {
     }
 }
 
-//#Preview {
-//    @State var brailleData: [[CircleData]] = [
-//        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .secondBG)],
-//        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .secondBG)],
-//        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .secondBG)]
-//    ]
-//    
-//    @State var isComplete = false
-//    
-//    let numberArray: [Int] = [0, 2, 2, 2]
-//    MiniGame4Struct(brailleData: $brailleData, numberArray: numberArray, isComplete: $isComplete)
-//}
