@@ -34,7 +34,7 @@ struct StartView: View {
                         .padding(.vertical, 30)
                     
                     NavigationLink(destination: Cover1()) {
-                        BlackButtonView(text: "START")
+                        BlackButton(text: "START")
                     }
                     .padding()
                     

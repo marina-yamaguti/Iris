@@ -27,6 +27,11 @@
 		A52ADFD92B8A770A001E74A3 /* dogBark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFD82B8A770A001E74A3 /* dogBark.mp3 */; };
 		A52ADFDB2B8A770F001E74A3 /* flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFDA2B8A770F001E74A3 /* flip.mp3 */; };
 		A52ADFDD2B8A7715001E74A3 /* soundtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFDC2B8A7715001E74A3 /* soundtrack.mp3 */; };
+		A52ADFE62B8A780E001E74A3 /* Callout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFE52B8A780E001E74A3 /* Callout.swift */; };
+		A52ADFE82B8A782B001E74A3 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFE72B8A782B001E74A3 /* Popup.swift */; };
+		A52ADFEB2B8A7870001E74A3 /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFEA2B8A7870001E74A3 /* Cover.swift */; };
+		A52ADFED2B8A7893001E74A3 /* ChapterEnding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFEC2B8A7893001E74A3 /* ChapterEnding.swift */; };
+		A52ADFEF2B8A7913001E74A3 /* Cover1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFEE2B8A7913001E74A3 /* Cover1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +58,11 @@
 		A52ADFDC2B8A7715001E74A3 /* soundtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundtrack.mp3; sourceTree = "<group>"; };
 		A52ADFDE2B8A771C001E74A3 /* OpenDyslexic3-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Bold.ttf"; sourceTree = "<group>"; };
 		A52ADFDF2B8A7726001E74A3 /* OpenDyslexic3-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Regular.ttf"; sourceTree = "<group>"; };
+		A52ADFE52B8A780E001E74A3 /* Callout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callout.swift; sourceTree = "<group>"; };
+		A52ADFE72B8A782B001E74A3 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		A52ADFEA2B8A7870001E74A3 /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
+		A52ADFEC2B8A7893001E74A3 /* ChapterEnding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterEnding.swift; sourceTree = "<group>"; };
+		A52ADFEE2B8A7913001E74A3 /* Cover1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				A52ADFC82B8A7587001E74A3 /* Buttons */,
+				A52ADFE42B8A77FD001E74A3 /* Texts */,
+				A52ADFE92B8A785C001E74A3 /* Views */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -134,6 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				A52ADFBF2B8A74C5001E74A3 /* Beginning */,
+				A52ADFE02B8A77B6001E74A3 /* Chapter1 */,
+				A52ADFE12B8A77C3001E74A3 /* Chapter2 */,
+				A52ADFE22B8A77D9001E74A3 /* Chapter3 */,
+				A52ADFE32B8A77E4001E74A3 /* Ending */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -173,6 +189,53 @@
 				A52ADFDF2B8A7726001E74A3 /* OpenDyslexic3-Regular.ttf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A52ADFE02B8A77B6001E74A3 /* Chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				A52ADFEE2B8A7913001E74A3 /* Cover1.swift */,
+			);
+			path = Chapter1;
+			sourceTree = "<group>";
+		};
+		A52ADFE12B8A77C3001E74A3 /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
+		A52ADFE22B8A77D9001E74A3 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter3;
+			sourceTree = "<group>";
+		};
+		A52ADFE32B8A77E4001E74A3 /* Ending */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ending;
+			sourceTree = "<group>";
+		};
+		A52ADFE42B8A77FD001E74A3 /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				A52ADFE52B8A780E001E74A3 /* Callout.swift */,
+				A52ADFE72B8A782B001E74A3 /* Popup.swift */,
+			);
+			path = Texts;
+			sourceTree = "<group>";
+		};
+		A52ADFE92B8A785C001E74A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A52ADFEA2B8A7870001E74A3 /* Cover.swift */,
+				A52ADFEC2B8A7893001E74A3 /* ChapterEnding.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,11 +316,16 @@
 				A52ADFC32B8A750E001E74A3 /* MessageView.swift in Sources */,
 				A52ADFD22B8A763D001E74A3 /* Organization.swift in Sources */,
 				A52ADFBD2B8A7447001E74A3 /* Fonts.swift in Sources */,
+				A52ADFED2B8A7893001E74A3 /* ChapterEnding.swift in Sources */,
 				A52ADFC52B8A7525001E74A3 /* SplashScreen.swift in Sources */,
 				A52ADFCA2B8A759B001E74A3 /* BlackButton.swift in Sources */,
+				A52ADFEF2B8A7913001E74A3 /* Cover1.swift in Sources */,
+				A52ADFE62B8A780E001E74A3 /* Callout.swift in Sources */,
+				A52ADFEB2B8A7870001E74A3 /* Cover.swift in Sources */,
 				A52ADFC72B8A754A001E74A3 /* StartView.swift in Sources */,
 				A52ADFD02B8A761D001E74A3 /* NextButton.swift in Sources */,
 				A52ADFA82B8A71FA001E74A3 /* IrisApp.swift in Sources */,
+				A52ADFE82B8A782B001E74A3 /* Popup.swift in Sources */,
 				A52ADFBB2B8A742F001E74A3 /* Colors.swift in Sources */,
 				A52ADFD42B8A766B001E74A3 /* PhotoButton.swift in Sources */,
 				A52ADFCC2B8A75D0001E74A3 /* ClearButton.swift in Sources */,
