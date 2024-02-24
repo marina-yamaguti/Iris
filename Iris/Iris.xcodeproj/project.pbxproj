@@ -23,6 +23,10 @@
 		A52ADFD02B8A761D001E74A3 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFCF2B8A761D001E74A3 /* NextButton.swift */; };
 		A52ADFD22B8A763D001E74A3 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFD12B8A763D001E74A3 /* Organization.swift */; };
 		A52ADFD42B8A766B001E74A3 /* PhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFD32B8A766B001E74A3 /* PhotoButton.swift */; };
+		A52ADFD62B8A76D5001E74A3 /* camera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFD52B8A76D5001E74A3 /* camera.mp3 */; };
+		A52ADFD92B8A770A001E74A3 /* dogBark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFD82B8A770A001E74A3 /* dogBark.mp3 */; };
+		A52ADFDB2B8A770F001E74A3 /* flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFDA2B8A770F001E74A3 /* flip.mp3 */; };
+		A52ADFDD2B8A7715001E74A3 /* soundtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFDC2B8A7715001E74A3 /* soundtrack.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,12 @@
 		A52ADFCF2B8A761D001E74A3 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
 		A52ADFD12B8A763D001E74A3 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
 		A52ADFD32B8A766B001E74A3 /* PhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoButton.swift; sourceTree = "<group>"; };
+		A52ADFD52B8A76D5001E74A3 /* camera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camera.mp3; sourceTree = "<group>"; };
+		A52ADFD82B8A770A001E74A3 /* dogBark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dogBark.mp3; sourceTree = "<group>"; };
+		A52ADFDA2B8A770F001E74A3 /* flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flip.mp3; sourceTree = "<group>"; };
+		A52ADFDC2B8A7715001E74A3 /* soundtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundtrack.mp3; sourceTree = "<group>"; };
+		A52ADFDE2B8A771C001E74A3 /* OpenDyslexic3-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Bold.ttf"; sourceTree = "<group>"; };
+		A52ADFDF2B8A7726001E74A3 /* OpenDyslexic3-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,7 @@
 				A52ADFB92B8A73D9001E74A3 /* Design System */,
 				A52ADFB82B8A73AD001E74A3 /* Components */,
 				A52ADFBE2B8A7477001E74A3 /* Flow */,
+				A52ADFD72B8A76DF001E74A3 /* Resources */,
 			);
 			path = Iris;
 			sourceTree = "<group>";
@@ -151,6 +162,19 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		A52ADFD72B8A76DF001E74A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A52ADFD52B8A76D5001E74A3 /* camera.mp3 */,
+				A52ADFD82B8A770A001E74A3 /* dogBark.mp3 */,
+				A52ADFDA2B8A770F001E74A3 /* flip.mp3 */,
+				A52ADFDC2B8A7715001E74A3 /* soundtrack.mp3 */,
+				A52ADFDE2B8A771C001E74A3 /* OpenDyslexic3-Bold.ttf */,
+				A52ADFDF2B8A7726001E74A3 /* OpenDyslexic3-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,7 +234,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52ADFAF2B8A71FB001E74A3 /* Preview Assets.xcassets in Resources */,
+				A52ADFDB2B8A770F001E74A3 /* flip.mp3 in Resources */,
+				A52ADFD62B8A76D5001E74A3 /* camera.mp3 in Resources */,
 				A52ADFAC2B8A71FB001E74A3 /* Assets.xcassets in Resources */,
+				A52ADFDD2B8A7715001E74A3 /* soundtrack.mp3 in Resources */,
+				A52ADFD92B8A770A001E74A3 /* dogBark.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
