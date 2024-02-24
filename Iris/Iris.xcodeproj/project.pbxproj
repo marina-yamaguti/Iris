@@ -17,6 +17,12 @@
 		A52ADFC32B8A750E001E74A3 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFC22B8A750E001E74A3 /* MessageView.swift */; };
 		A52ADFC52B8A7525001E74A3 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFC42B8A7525001E74A3 /* SplashScreen.swift */; };
 		A52ADFC72B8A754A001E74A3 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFC62B8A754A001E74A3 /* StartView.swift */; };
+		A52ADFCA2B8A759B001E74A3 /* BlackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFC92B8A759B001E74A3 /* BlackButton.swift */; };
+		A52ADFCC2B8A75D0001E74A3 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFCB2B8A75D0001E74A3 /* ClearButton.swift */; };
+		A52ADFCE2B8A75FF001E74A3 /* FinishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFCD2B8A75FF001E74A3 /* FinishButton.swift */; };
+		A52ADFD02B8A761D001E74A3 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFCF2B8A761D001E74A3 /* NextButton.swift */; };
+		A52ADFD22B8A763D001E74A3 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFD12B8A763D001E74A3 /* Organization.swift */; };
+		A52ADFD42B8A766B001E74A3 /* PhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFD32B8A766B001E74A3 /* PhotoButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,12 @@
 		A52ADFC22B8A750E001E74A3 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		A52ADFC42B8A7525001E74A3 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		A52ADFC62B8A754A001E74A3 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		A52ADFC92B8A759B001E74A3 /* BlackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackButton.swift; sourceTree = "<group>"; };
+		A52ADFCB2B8A75D0001E74A3 /* ClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
+		A52ADFCD2B8A75FF001E74A3 /* FinishButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishButton.swift; sourceTree = "<group>"; };
+		A52ADFCF2B8A761D001E74A3 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		A52ADFD12B8A763D001E74A3 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		A52ADFD32B8A766B001E74A3 /* PhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 		A52ADFA62B8A71FA001E74A3 /* Iris */ = {
 			isa = PBXGroup;
 			children = (
+				A52ADFAD2B8A71FB001E74A3 /* Preview Content */,
 				A52ADFB52B8A7350001E74A3 /* Application */,
 				A52ADFB92B8A73D9001E74A3 /* Design System */,
 				A52ADFB82B8A73AD001E74A3 /* Components */,
@@ -82,7 +95,6 @@
 		A52ADFB52B8A7350001E74A3 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				A52ADFAD2B8A71FB001E74A3 /* Preview Content */,
 				A52ADFAB2B8A71FB001E74A3 /* Assets.xcassets */,
 				A52ADFA72B8A71FA001E74A3 /* IrisApp.swift */,
 				A52ADFB62B8A7369001E74A3 /* Constants.swift */,
@@ -93,6 +105,7 @@
 		A52ADFB82B8A73AD001E74A3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A52ADFC82B8A7587001E74A3 /* Buttons */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -123,6 +136,19 @@
 				A52ADFC62B8A754A001E74A3 /* StartView.swift */,
 			);
 			path = Beginning;
+			sourceTree = "<group>";
+		};
+		A52ADFC82B8A7587001E74A3 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A52ADFC92B8A759B001E74A3 /* BlackButton.swift */,
+				A52ADFCB2B8A75D0001E74A3 /* ClearButton.swift */,
+				A52ADFCD2B8A75FF001E74A3 /* FinishButton.swift */,
+				A52ADFCF2B8A761D001E74A3 /* NextButton.swift */,
+				A52ADFD32B8A766B001E74A3 /* PhotoButton.swift */,
+				A52ADFD12B8A763D001E74A3 /* Organization.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,12 +221,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52ADFCE2B8A75FF001E74A3 /* FinishButton.swift in Sources */,
 				A52ADFC32B8A750E001E74A3 /* MessageView.swift in Sources */,
+				A52ADFD22B8A763D001E74A3 /* Organization.swift in Sources */,
 				A52ADFBD2B8A7447001E74A3 /* Fonts.swift in Sources */,
 				A52ADFC52B8A7525001E74A3 /* SplashScreen.swift in Sources */,
+				A52ADFCA2B8A759B001E74A3 /* BlackButton.swift in Sources */,
 				A52ADFC72B8A754A001E74A3 /* StartView.swift in Sources */,
+				A52ADFD02B8A761D001E74A3 /* NextButton.swift in Sources */,
 				A52ADFA82B8A71FA001E74A3 /* IrisApp.swift in Sources */,
 				A52ADFBB2B8A742F001E74A3 /* Colors.swift in Sources */,
+				A52ADFD42B8A766B001E74A3 /* PhotoButton.swift in Sources */,
+				A52ADFCC2B8A75D0001E74A3 /* ClearButton.swift in Sources */,
 				A52ADFB72B8A7369001E74A3 /* Constants.swift in Sources */,
 				A52ADFC12B8A74E7001E74A3 /* AboutView.swift in Sources */,
 			);
