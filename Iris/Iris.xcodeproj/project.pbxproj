@@ -13,6 +13,10 @@
 		A52ADFB72B8A7369001E74A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFB62B8A7369001E74A3 /* Constants.swift */; };
 		A52ADFBB2B8A742F001E74A3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFBA2B8A742F001E74A3 /* Colors.swift */; };
 		A52ADFBD2B8A7447001E74A3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFBC2B8A7447001E74A3 /* Fonts.swift */; };
+		A52ADFC12B8A74E7001E74A3 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFC02B8A74E7001E74A3 /* AboutView.swift */; };
+		A52ADFC32B8A750E001E74A3 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFC22B8A750E001E74A3 /* MessageView.swift */; };
+		A52ADFC52B8A7525001E74A3 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFC42B8A7525001E74A3 /* SplashScreen.swift */; };
+		A52ADFC72B8A754A001E74A3 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFC62B8A754A001E74A3 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		A52ADFB62B8A7369001E74A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A52ADFBA2B8A742F001E74A3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A52ADFBC2B8A7447001E74A3 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		A52ADFC02B8A74E7001E74A3 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		A52ADFC22B8A750E001E74A3 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		A52ADFC42B8A7525001E74A3 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		A52ADFC62B8A754A001E74A3 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				A52ADFA62B8A71FA001E74A3 /* Iris */,
-				A52ADFB82B8A73AD001E74A3 /* Components */,
-				A52ADFB92B8A73D9001E74A3 /* Design System */,
 				A52ADFA52B8A71FA001E74A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				A52ADFB52B8A7350001E74A3 /* Application */,
+				A52ADFB92B8A73D9001E74A3 /* Design System */,
+				A52ADFB82B8A73AD001E74A3 /* Components */,
+				A52ADFBE2B8A7477001E74A3 /* Flow */,
 			);
 			path = Iris;
 			sourceTree = "<group>";
@@ -95,6 +104,25 @@
 				A52ADFBC2B8A7447001E74A3 /* Fonts.swift */,
 			);
 			path = "Design System";
+			sourceTree = "<group>";
+		};
+		A52ADFBE2B8A7477001E74A3 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				A52ADFBF2B8A74C5001E74A3 /* Beginning */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		A52ADFBF2B8A74C5001E74A3 /* Beginning */ = {
+			isa = PBXGroup;
+			children = (
+				A52ADFC02B8A74E7001E74A3 /* AboutView.swift */,
+				A52ADFC22B8A750E001E74A3 /* MessageView.swift */,
+				A52ADFC42B8A7525001E74A3 /* SplashScreen.swift */,
+				A52ADFC62B8A754A001E74A3 /* StartView.swift */,
+			);
+			path = Beginning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52ADFC32B8A750E001E74A3 /* MessageView.swift in Sources */,
 				A52ADFBD2B8A7447001E74A3 /* Fonts.swift in Sources */,
+				A52ADFC52B8A7525001E74A3 /* SplashScreen.swift in Sources */,
+				A52ADFC72B8A754A001E74A3 /* StartView.swift in Sources */,
 				A52ADFA82B8A71FA001E74A3 /* IrisApp.swift in Sources */,
 				A52ADFBB2B8A742F001E74A3 /* Colors.swift in Sources */,
 				A52ADFB72B8A7369001E74A3 /* Constants.swift in Sources */,
+				A52ADFC12B8A74E7001E74A3 /* AboutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
