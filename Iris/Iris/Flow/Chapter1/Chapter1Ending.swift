@@ -15,8 +15,8 @@ struct Chapter1Ending: View {
                     Color.mainBG
                         .ignoresSafeArea()
                     ChapterEnding(title: "for the first time in her life, she wasn't sure what to do.", image: "chapter1-ending", endingText: "what could help Iris?")
-                    FinishButton(destination: Cover2())
-                        .position(x: geometry.size.width / 2, y:  geometry.size.height - 100)
+//                    FinishButton(destination: Cover2())
+//                        .position(x: geometry.size.width / 2, y:  geometry.size.height - 100)
                 }
             }
         } .navigationBarHidden(true)

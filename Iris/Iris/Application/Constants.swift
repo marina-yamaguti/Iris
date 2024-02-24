@@ -17,23 +17,23 @@ class Constants: ObservableObject {
     
     private var player2: AVAudioPlayer?
     
-//    var brailleI: [[CircleData]] = [
-//        [CircleData(isTouched: true, color: .lightGray), CircleData(isTouched: false, color: .brandRed)],
-//        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)],
-//        [CircleData(isTouched: true, color: .lightGray), CircleData(isTouched: true, color: .lightGray)]
-//    ]
-//    
-//    var brailleR: [[CircleData]] = [
-//        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)],
-//        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: false, color: .brandRed)],
-//        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)]
-//    ]
-//    
-//    var brailleS: [[CircleData]] = [
-//        [CircleData(isTouched: true, color: .lightGray), CircleData(isTouched: false, color: .brandRed)],
-//        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)],
-//        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)]
-//    ]
+    var brailleI: [[CircleData]] = [
+        [CircleData(isTouched: true, color: .lightGray), CircleData(isTouched: false, color: .brandRed)],
+        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)],
+        [CircleData(isTouched: true, color: .lightGray), CircleData(isTouched: true, color: .lightGray)]
+    ]
+    
+    var brailleR: [[CircleData]] = [
+        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)],
+        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: false, color: .brandRed)],
+        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)]
+    ]
+    
+    var brailleS: [[CircleData]] = [
+        [CircleData(isTouched: true, color: .lightGray), CircleData(isTouched: false, color: .brandRed)],
+        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)],
+        [CircleData(isTouched: false, color: .brandRed), CircleData(isTouched: true, color: .lightGray)]
+    ]
     
     let wordFirst: [Int] = [0, 2, 2, 2]
     
@@ -81,5 +81,17 @@ class Constants: ObservableObject {
         } catch {
             print("Couldn't play audio. Error: \(error)")
         }
+    }
+}
+
+struct CircleData: Identifiable, Hashable {
+    let id = UUID()
+    var isTouched: Bool
+    var color: Color
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+        hasher.combine(isTouched)
+        hasher.combine(color)
     }
 }
