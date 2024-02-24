@@ -32,6 +32,8 @@
 		A52ADFEB2B8A7870001E74A3 /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFEA2B8A7870001E74A3 /* Cover.swift */; };
 		A52ADFED2B8A7893001E74A3 /* ChapterEnding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFEC2B8A7893001E74A3 /* ChapterEnding.swift */; };
 		A52ADFEF2B8A7913001E74A3 /* Cover1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFEE2B8A7913001E74A3 /* Cover1.swift */; };
+		A52ADFF12B8A7C5A001E74A3 /* OpenDyslexic3-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFDE2B8A771C001E74A3 /* OpenDyslexic3-Bold.ttf */; };
+		A52ADFF22B8A7C5D001E74A3 /* OpenDyslexic3-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFDF2B8A7726001E74A3 /* OpenDyslexic3-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,7 @@
 		A52ADFEA2B8A7870001E74A3 /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
 		A52ADFEC2B8A7893001E74A3 /* ChapterEnding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterEnding.swift; sourceTree = "<group>"; };
 		A52ADFEE2B8A7913001E74A3 /* Cover1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover1.swift; sourceTree = "<group>"; };
+		A52ADFF02B8A7B2C001E74A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,7 @@
 		A52ADFA62B8A71FA001E74A3 /* Iris */ = {
 			isa = PBXGroup;
 			children = (
+				A52ADFF02B8A7B2C001E74A3 /* Info.plist */,
 				A52ADFAD2B8A71FB001E74A3 /* Preview Content */,
 				A52ADFB52B8A7350001E74A3 /* Application */,
 				A52ADFB92B8A73D9001E74A3 /* Design System */,
@@ -298,9 +302,11 @@
 			files = (
 				A52ADFAF2B8A71FB001E74A3 /* Preview Assets.xcassets in Resources */,
 				A52ADFDB2B8A770F001E74A3 /* flip.mp3 in Resources */,
+				A52ADFF12B8A7C5A001E74A3 /* OpenDyslexic3-Bold.ttf in Resources */,
 				A52ADFD62B8A76D5001E74A3 /* camera.mp3 in Resources */,
 				A52ADFAC2B8A71FB001E74A3 /* Assets.xcassets in Resources */,
 				A52ADFDD2B8A7715001E74A3 /* soundtrack.mp3 in Resources */,
+				A52ADFF22B8A7C5D001E74A3 /* OpenDyslexic3-Regular.ttf in Resources */,
 				A52ADFD92B8A770A001E74A3 /* dogBark.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -446,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -467,12 +473,13 @@
 				DEVELOPMENT_TEAM = 3MS8Y2RCJZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Iris/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Iris;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
@@ -504,12 +511,13 @@
 				DEVELOPMENT_TEAM = 3MS8Y2RCJZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Iris/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Iris;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
