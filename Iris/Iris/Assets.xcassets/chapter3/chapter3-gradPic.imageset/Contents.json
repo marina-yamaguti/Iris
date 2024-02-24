@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "chapter3-gradPic.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
