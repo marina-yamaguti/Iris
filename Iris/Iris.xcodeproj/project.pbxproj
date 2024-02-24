@@ -47,6 +47,14 @@
 		A52AE0092B8A7F56001E74A3 /* MiniGame4Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE0082B8A7F56001E74A3 /* MiniGame4Letter.swift */; };
 		A52AE00B2B8A7F79001E74A3 /* MiniGame4Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE00A2B8A7F79001E74A3 /* MiniGame4Word.swift */; };
 		A52AE00D2B8A7FA4001E74A3 /* MiniGame4Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE00C2B8A7FA4001E74A3 /* MiniGame4Struct.swift */; };
+		A52AE00F2B8A8394001E74A3 /* Cover2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE00E2B8A8394001E74A3 /* Cover2.swift */; };
+		A52AE0112B8A83BC001E74A3 /* Adapting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE0102B8A83BC001E74A3 /* Adapting.swift */; };
+		A52AE0132B8A83D9001E74A3 /* MiniGame3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE0122B8A83D9001E74A3 /* MiniGame3.swift */; };
+		A52AE0152B8A8422001E74A3 /* Popup2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE0142B8A8422001E74A3 /* Popup2.swift */; };
+		A52AE0172B8A8437001E74A3 /* MeetDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE0162B8A8437001E74A3 /* MeetDog.swift */; };
+		A52AE0192B8A8452001E74A3 /* NameDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE0182B8A8452001E74A3 /* NameDog.swift */; };
+		A52AE01B2B8A8469001E74A3 /* Popup3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE01A2B8A8469001E74A3 /* Popup3.swift */; };
+		A52AE01D2B8A8485001E74A3 /* Chapter2Ending.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52AE01C2B8A8485001E74A3 /* Chapter2Ending.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +100,14 @@
 		A52AE0082B8A7F56001E74A3 /* MiniGame4Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGame4Letter.swift; sourceTree = "<group>"; };
 		A52AE00A2B8A7F79001E74A3 /* MiniGame4Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGame4Word.swift; sourceTree = "<group>"; };
 		A52AE00C2B8A7FA4001E74A3 /* MiniGame4Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGame4Struct.swift; sourceTree = "<group>"; };
+		A52AE00E2B8A8394001E74A3 /* Cover2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover2.swift; sourceTree = "<group>"; };
+		A52AE0102B8A83BC001E74A3 /* Adapting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapting.swift; sourceTree = "<group>"; };
+		A52AE0122B8A83D9001E74A3 /* MiniGame3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGame3.swift; sourceTree = "<group>"; };
+		A52AE0142B8A8422001E74A3 /* Popup2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup2.swift; sourceTree = "<group>"; };
+		A52AE0162B8A8437001E74A3 /* MeetDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetDog.swift; sourceTree = "<group>"; };
+		A52AE0182B8A8452001E74A3 /* NameDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDog.swift; sourceTree = "<group>"; };
+		A52AE01A2B8A8469001E74A3 /* Popup3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup3.swift; sourceTree = "<group>"; };
+		A52AE01C2B8A8485001E74A3 /* Chapter2Ending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2Ending.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +255,14 @@
 		A52ADFE12B8A77C3001E74A3 /* Chapter2 */ = {
 			isa = PBXGroup;
 			children = (
+				A52AE00E2B8A8394001E74A3 /* Cover2.swift */,
+				A52AE0102B8A83BC001E74A3 /* Adapting.swift */,
+				A52AE0122B8A83D9001E74A3 /* MiniGame3.swift */,
+				A52AE0142B8A8422001E74A3 /* Popup2.swift */,
+				A52AE0162B8A8437001E74A3 /* MeetDog.swift */,
+				A52AE0182B8A8452001E74A3 /* NameDog.swift */,
+				A52AE01A2B8A8469001E74A3 /* Popup3.swift */,
+				A52AE01C2B8A8485001E74A3 /* Chapter2Ending.swift */,
 			);
 			path = Chapter2;
 			sourceTree = "<group>";
@@ -373,16 +397,20 @@
 				A52AE0032B8A7EA3001E74A3 /* MiniGame2Square.swift in Sources */,
 				A52ADFD22B8A763D001E74A3 /* Organization.swift in Sources */,
 				A52ADFBD2B8A7447001E74A3 /* Fonts.swift in Sources */,
+				A52AE00F2B8A8394001E74A3 /* Cover2.swift in Sources */,
 				A52ADFED2B8A7893001E74A3 /* ChapterEnding.swift in Sources */,
 				A52ADFC52B8A7525001E74A3 /* SplashScreen.swift in Sources */,
 				A52AE0072B8A7EEC001E74A3 /* MiniGame4Braille.swift in Sources */,
 				A52ADFCA2B8A759B001E74A3 /* BlackButton.swift in Sources */,
 				A52ADFEF2B8A7913001E74A3 /* Cover1.swift in Sources */,
+				A52AE0132B8A83D9001E74A3 /* MiniGame3.swift in Sources */,
 				A52ADFE62B8A780E001E74A3 /* Callout.swift in Sources */,
 				A52ADFEB2B8A7870001E74A3 /* Cover.swift in Sources */,
+				A52AE0152B8A8422001E74A3 /* Popup2.swift in Sources */,
 				A52ADFC72B8A754A001E74A3 /* StartView.swift in Sources */,
 				A52AE00D2B8A7FA4001E74A3 /* MiniGame4Struct.swift in Sources */,
 				A52ADFF42B8A7D94001E74A3 /* Introduction.swift in Sources */,
+				A52AE01D2B8A8485001E74A3 /* Chapter2Ending.swift in Sources */,
 				A52ADFFA2B8A7DE9001E74A3 /* Popup1.swift in Sources */,
 				A52ADFFE2B8A7E1A001E74A3 /* Chapter1Ending.swift in Sources */,
 				A52ADFD02B8A761D001E74A3 /* NextButton.swift in Sources */,
@@ -391,9 +419,13 @@
 				A52ADFBB2B8A742F001E74A3 /* Colors.swift in Sources */,
 				A52AE0052B8A7EC1001E74A3 /* MiniGame4Circle.swift in Sources */,
 				A52ADFD42B8A766B001E74A3 /* PhotoButton.swift in Sources */,
+				A52AE0192B8A8452001E74A3 /* NameDog.swift in Sources */,
+				A52AE0112B8A83BC001E74A3 /* Adapting.swift in Sources */,
 				A52ADFCC2B8A75D0001E74A3 /* ClearButton.swift in Sources */,
 				A52AE0012B8A7E82001E74A3 /* Instruction.swift in Sources */,
 				A52AE00B2B8A7F79001E74A3 /* MiniGame4Word.swift in Sources */,
+				A52AE0172B8A8437001E74A3 /* MeetDog.swift in Sources */,
+				A52AE01B2B8A8469001E74A3 /* Popup3.swift in Sources */,
 				A52ADFB72B8A7369001E74A3 /* Constants.swift in Sources */,
 				A52ADFF82B8A7DCE001E74A3 /* MiniGame1.swift in Sources */,
 				A52ADFC12B8A74E7001E74A3 /* AboutView.swift in Sources */,
