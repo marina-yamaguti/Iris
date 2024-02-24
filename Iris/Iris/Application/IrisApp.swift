@@ -37,21 +37,5 @@ struct IrisApp: App {
             }
         }
     }
-    
-//    init() {
-//        if let fontURL = Bundle.main.url(forResource: "OpenDyslexic3-Regular", withExtension: "ttf"),
-//           let fontData = try? Data(contentsOf: fontURL) as CFData,
-//           let provider = CGDataProvider(data: fontData),
-//           let font = CGFont(provider) {
-//            CTFontManagerRegisterGraphicsFont(font, nil)
-//        }
-//        
-//        if let fontURL = Bundle.main.url(forResource: "OpenDyslexic3-Bold", withExtension: "ttf"),
-//           let fontData = try? Data(contentsOf: fontURL) as CFData,
-//           let provider = CGDataProvider(data: fontData),
-//           let font = CGFont(provider) {
-//            CTFontManagerRegisterGraphicsFont(font, nil)
-//        }
-//    }
 }
 

@@ -34,6 +34,12 @@
 		A52ADFEF2B8A7913001E74A3 /* Cover1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFEE2B8A7913001E74A3 /* Cover1.swift */; };
 		A52ADFF12B8A7C5A001E74A3 /* OpenDyslexic3-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFDE2B8A771C001E74A3 /* OpenDyslexic3-Bold.ttf */; };
 		A52ADFF22B8A7C5D001E74A3 /* OpenDyslexic3-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A52ADFDF2B8A7726001E74A3 /* OpenDyslexic3-Regular.ttf */; };
+		A52ADFF42B8A7D94001E74A3 /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFF32B8A7D94001E74A3 /* Introduction.swift */; };
+		A52ADFF62B8A7DB6001E74A3 /* MoreAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFF52B8A7DB6001E74A3 /* MoreAbout.swift */; };
+		A52ADFF82B8A7DCE001E74A3 /* MiniGame1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFF72B8A7DCE001E74A3 /* MiniGame1.swift */; };
+		A52ADFFA2B8A7DE9001E74A3 /* Popup1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFF92B8A7DE9001E74A3 /* Popup1.swift */; };
+		A52ADFFC2B8A7DFF001E74A3 /* MiniGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFFB2B8A7DFF001E74A3 /* MiniGame2.swift */; };
+		A52ADFFE2B8A7E1A001E74A3 /* Chapter1Ending.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52ADFFD2B8A7E1A001E74A3 /* Chapter1Ending.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +72,12 @@
 		A52ADFEC2B8A7893001E74A3 /* ChapterEnding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterEnding.swift; sourceTree = "<group>"; };
 		A52ADFEE2B8A7913001E74A3 /* Cover1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover1.swift; sourceTree = "<group>"; };
 		A52ADFF02B8A7B2C001E74A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A52ADFF32B8A7D94001E74A3 /* Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
+		A52ADFF52B8A7DB6001E74A3 /* MoreAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreAbout.swift; sourceTree = "<group>"; };
+		A52ADFF72B8A7DCE001E74A3 /* MiniGame1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGame1.swift; sourceTree = "<group>"; };
+		A52ADFF92B8A7DE9001E74A3 /* Popup1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup1.swift; sourceTree = "<group>"; };
+		A52ADFFB2B8A7DFF001E74A3 /* MiniGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGame2.swift; sourceTree = "<group>"; };
+		A52ADFFD2B8A7E1A001E74A3 /* Chapter1Ending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1Ending.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +211,12 @@
 			isa = PBXGroup;
 			children = (
 				A52ADFEE2B8A7913001E74A3 /* Cover1.swift */,
+				A52ADFF32B8A7D94001E74A3 /* Introduction.swift */,
+				A52ADFF52B8A7DB6001E74A3 /* MoreAbout.swift */,
+				A52ADFF72B8A7DCE001E74A3 /* MiniGame1.swift */,
+				A52ADFF92B8A7DE9001E74A3 /* Popup1.swift */,
+				A52ADFFB2B8A7DFF001E74A3 /* MiniGame2.swift */,
+				A52ADFFD2B8A7E1A001E74A3 /* Chapter1Ending.swift */,
 			);
 			path = Chapter1;
 			sourceTree = "<group>";
@@ -319,7 +337,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52ADFCE2B8A75FF001E74A3 /* FinishButton.swift in Sources */,
+				A52ADFF62B8A7DB6001E74A3 /* MoreAbout.swift in Sources */,
 				A52ADFC32B8A750E001E74A3 /* MessageView.swift in Sources */,
+				A52ADFFC2B8A7DFF001E74A3 /* MiniGame2.swift in Sources */,
 				A52ADFD22B8A763D001E74A3 /* Organization.swift in Sources */,
 				A52ADFBD2B8A7447001E74A3 /* Fonts.swift in Sources */,
 				A52ADFED2B8A7893001E74A3 /* ChapterEnding.swift in Sources */,
@@ -329,6 +349,9 @@
 				A52ADFE62B8A780E001E74A3 /* Callout.swift in Sources */,
 				A52ADFEB2B8A7870001E74A3 /* Cover.swift in Sources */,
 				A52ADFC72B8A754A001E74A3 /* StartView.swift in Sources */,
+				A52ADFF42B8A7D94001E74A3 /* Introduction.swift in Sources */,
+				A52ADFFA2B8A7DE9001E74A3 /* Popup1.swift in Sources */,
+				A52ADFFE2B8A7E1A001E74A3 /* Chapter1Ending.swift in Sources */,
 				A52ADFD02B8A761D001E74A3 /* NextButton.swift in Sources */,
 				A52ADFA82B8A71FA001E74A3 /* IrisApp.swift in Sources */,
 				A52ADFE82B8A782B001E74A3 /* Popup.swift in Sources */,
@@ -336,6 +359,7 @@
 				A52ADFD42B8A766B001E74A3 /* PhotoButton.swift in Sources */,
 				A52ADFCC2B8A75D0001E74A3 /* ClearButton.swift in Sources */,
 				A52ADFB72B8A7369001E74A3 /* Constants.swift in Sources */,
+				A52ADFF82B8A7DCE001E74A3 /* MiniGame1.swift in Sources */,
 				A52ADFC12B8A74E7001E74A3 /* AboutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

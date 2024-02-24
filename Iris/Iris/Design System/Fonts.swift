@@ -31,7 +31,6 @@ extension Font {
     
     static func regularFont() -> Font {
         return Font.custom("OpenDyslexic3", size: 35)
-            .weight(.regular)
     }
     
     static func bodyFont() -> Font {
@@ -41,6 +40,5 @@ extension Font {
     
     static func textFont() -> Font {
         return Font.custom("OpenDyslexic3", size: 24)
-            .weight(.regular)
     }
 }

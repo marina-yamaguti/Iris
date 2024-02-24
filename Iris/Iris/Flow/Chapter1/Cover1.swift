@@ -17,8 +17,8 @@ struct Cover1: View {
                     VStack {
                         Cover(number: "1", title: "''blurred visions''", coverImage: "chapter1-cover")
                     } .padding()
-//                    NextButton(destination: Introduction())
-//                        .position(x: geometry.size.width / 2, y:  geometry.size.height - 100)
+                    NextButton(destination: Introduction())
+                        .position(x: geometry.size.width / 2, y:  geometry.size.height - 100)
                 }
             } .navigationBarBackButtonHidden()
         }
